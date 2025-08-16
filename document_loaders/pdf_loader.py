@@ -1,6 +1,6 @@
 from langchain_community.document_loaders import PyPDFLoader
 
-loader = PyPDFLoader('dl-curriculum.pdf')
+loader = PyPDFLoader('/Users/divyanshverma/Desktop/langchain/my_langchain_stuff/document_loaders/dl-curriculum.pdf')
 
 docs = loader.load()
 
